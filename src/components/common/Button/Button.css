@@ -1,0 +1,31 @@
+.common-button {
+  width: 100%;
+  font-weight: 500;
+  padding: 16px 24px;
+  border: none;
+  border-radius: 16px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.common-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.common-button:active {
+  transform: translateY(0);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.common-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+} 

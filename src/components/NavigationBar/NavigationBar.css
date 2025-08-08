@@ -1,0 +1,43 @@
+.navigation-bar {
+    display: flex;
+    align-items: center;
+    background: var(--background);
+    border-top: 1px solid #e5e7eb;
+    padding: 0.8rem 0;
+    position: relative;
+  }
+  
+  .nav-link {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    padding: 0.5rem 0;
+  }
+  
+  .nav-icon {
+    width: 2.4rem;
+    height: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
+  
+  .nav-icon.active {
+    color: var(--foreground);
+  }
+  
+  .nav-label {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-top: 0.4rem;
+    color: var(--gray-50);
+  }
+  
+  .nav-label.active {
+    color: var(--foreground);
+  }

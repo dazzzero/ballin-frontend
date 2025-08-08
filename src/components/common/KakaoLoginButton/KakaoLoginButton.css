@@ -1,0 +1,26 @@
+.kakao-login-button {
+  background-color: #FEE500;
+  color: black;
+}
+
+.kakao-login-button:hover {
+  background-color: #FDD835;
+}
+
+/* Kakao Icon */
+.kakao-icon {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kakao-icon-inner {
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  border-radius: 50%;
+} 
